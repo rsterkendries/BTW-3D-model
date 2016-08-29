@@ -22,6 +22,7 @@ class LogAxis2DChart extends ApplicationFrame {
 		
 		BTW_3D btw1 = new BTW_3D(16);
 		btw1.startAvalanche(1000);
+		
 		for(Entry<Double,Integer> e : btw1.getRelativeDistribution().entrySet()) {
 			serie1.add(e.getKey(),e.getValue());
 		}
@@ -52,11 +53,10 @@ class LogAxis2DChart extends ApplicationFrame {
 public class TestClass {
 
 	public static void main(String[] args) {
-		
 		final LogAxis2DChart demo = new LogAxis2DChart("BTW");
-        demo.pack();
-        RefineryUtilities.centerFrameOnScreen(demo);
-        demo.setVisible(true);
+		demo.pack();
+		RefineryUtilities.centerFrameOnScreen(demo);
+		demo.setVisible(true);
 		
 	}
 
