@@ -39,8 +39,8 @@ class LogAxis2DChart extends ApplicationFrame {
 																false);
 		
 		final XYPlot plot = chart.getXYPlot();
-        final NumberAxis domainAxis = new LogarithmicAxis("Log(Size Ratio)");
-        final NumberAxis rangeAxis = new LogarithmicAxis("Log(Frequency)");
+        final NumberAxis domainAxis = new LogarithmicAxis("Size Ratio (% of V)");
+        final NumberAxis rangeAxis = new LogarithmicAxis("Number of Avalanches");
         plot.setDomainAxis(domainAxis);
         plot.setRangeAxis(rangeAxis);
         final ChartPanel chartPanel = new ChartPanel(chart);
