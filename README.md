@@ -12,6 +12,6 @@ TreeMap<Integer,Double> = btw.getRelativeDistribution(); //retrieve distribution
 ```
 
 # Screenshot
-this screenshot is produced by TestClass.java (need `jcommons` and `jfreechart`)
+this screenshot is produced by TestClass.java (need these jars `jcommons` and `jfreechart`)
 
 ![example](https://github.com/rsterkendries/BTW-3D-model/blob/master/images/average_1000xp_on_16x16x16_grid.png)
