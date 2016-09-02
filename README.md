@@ -9,7 +9,7 @@ int size = 10; // sample size
 BTW_3D btw = new BTW_3D(size); //construct an instance of the model
 int xp = 100; // number of experiments (distribution is an average of results)
 btw.startAvalanche(xp); //compute distribution
-TreeMap<Integer,Double> = btw.getRelativeDistribution(); //retrieve distribution (average)
+TreeMap<Integer,Double> distribution = btw.getRelativeDistribution(); //retrieve distribution (average)
 ```
 
 # Screenshot
